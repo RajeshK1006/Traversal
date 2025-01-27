@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 interface ButtonProps {
-  type?: string;
+  type: "button" | "submit";
   title: string;
   icon?: string;
   variant: string;
@@ -12,7 +12,7 @@ interface ButtonProps {
 const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
     <button
-      type="button"
+      type={type}
       className={`flexCenter gap-3 rounded-full border ${variant} ${
         full && "w-full"
       }`}
