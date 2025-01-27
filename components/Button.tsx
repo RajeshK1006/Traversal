@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 interface ButtonProps {
-  type: "button" | "submit";
+  type?: string;
   title: string;
   icon?: string;
   variant: string;
