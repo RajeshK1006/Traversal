@@ -14,9 +14,11 @@ const Guide = () => {
             Guide You to Easy Path
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
-            possimus alias unde error sed, amet repellendus quibusdam, qui
-            dignissimos beatae voluptatum exercitationem iste reprehenderit?
+            Only with the hilink application you will no longer get lost and get
+            lost again, because we already support offline maps when there is no
+            internet connection in the field. Invite your friends, relatives and
+            friends to have fun in the wilderness through the valley and reach
+            the top of the mountain
           </p>
         </div>
       </div>
