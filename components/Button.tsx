@@ -12,6 +12,7 @@ interface ButtonProps {
 const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
     <button
+      type="button"
       className={`flexCenter gap-3 rounded-full border ${variant} ${
         full && "w-full"
       }`}
